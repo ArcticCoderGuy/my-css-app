@@ -1,12 +1,44 @@
-# React + Vite
+# 🧑‍💻 My CSS App – Vite + React + CSS Modules
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tämä projekti on osa EduNordin ohjelmointitehtävää, jossa tavoitteena on oppia moderni React-sovelluskehitys ja CSS Modules -tyylitys alusta asti.
 
-Currently, two official plugins are available:
+## ✅ Tehdyt vaiheet (dokumentointi)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔹 1. Projektin luonti (Vite + React)
 
-## Expanding the ESLint configuration
+- Luotiin uusi projekti komennolla:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm create vite@latest my-css-app -- --template react
+
+git init
+git add .
+git commit -m "Initial commit with Vite + React"
+git branch -M main
+git remote add origin https://github.com/ArcticCoderGuy/my-css-app.git
+git push -u origin main
+
+```
+## Luodaan komponentit
+
+mkdir src/Components
+cd src/Components
+touch UserCard.jsx UserCard.module.css
+cd ../..
+
+Luotu hakemisto jossa noi kortit
+
+PS C:\Users\HP\Dev\my-css-app> ls src/Components
+
+
+    Directory: C:\Users\HP\Dev\my-css-app\src\Components
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          8.8.2025     16.46              0 UserCard.jsx
+-a----          8.8.2025     16.46              0 UserCard.module.css
+
+## Lisätään seuraavaksi noi tiedot kortteihin
+
+
