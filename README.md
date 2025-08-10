@@ -41,4 +41,14 @@ Mode                 LastWriteTime         Length Name
 
 ## Lisätään seuraavaksi noi tiedot kortteihin
 
+Lisätty ja Committoitu as usual
 
+## Tehdään käyttäjälistan renderöinti komponentin avulla
+
+-> JA toimii... Anne,Mikko ja Liisa näkyy
+
+
+
+
+
+Tehtävä valmis ja ruvetaan työstämään seuraavaa.
